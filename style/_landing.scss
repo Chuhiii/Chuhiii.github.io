@@ -1,0 +1,229 @@
+.landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid $primaryColor;
+    height: 500px;
+    justify-content: space-between;
+
+
+    .landing-box{
+        max-width: 900px;
+
+        #landing-info{
+            position: relative; 
+            padding-left: 5%;
+            
+            p{
+                
+                font-size: 16px;
+            }
+
+            .welcome-p {
+                position: absolute;
+                top: -15%;
+            }
+
+            .myName-p {
+                font-size: $title;
+                margin-top: 5%;
+            }
+
+            .name{
+                margin-bottom: 5%;
+                font-size: 50px;
+                font-weight: 600;
+            }
+            
+            .profile-info {
+                margin-top: 3%;
+            }
+           
+            
+            button {
+            position: absolute;
+            bottom: -40%;
+            width: 140px;
+            height: 39px;
+            }
+            
+            h1, .color-primary{
+                color: $primaryColor
+            }
+        
+            
+            //buttons
+            .background-primary {
+                background-color: $primaryColor;
+                margin-right: 2%;
+                &:hover{
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid $primaryColor;
+                }
+            }
+        
+            .background-none {
+                background-color: transparent;
+                border: 1px solid $primaryColor;
+                color: white;
+                left: 200px;
+                
+                &:hover{
+                    background-color: $primaryColor;
+                    color: black;
+                }
+        
+            }
+        }
+    
+        //images
+        #image-box{
+            position: relative;
+
+            .drag-img-1{
+                position: absolute;
+                top: -5%;
+                left: 5%;
+            }
+    
+            .drag-img-2{
+                position: absolute;
+                top: 10%;
+                left: 35%;
+            }
+    
+            .drag-img-3{
+                position: absolute;
+                top: -5%;
+                left: 120%;
+            }
+    
+            .drag-img-4{
+                position: absolute;
+                top: 25%;
+                left: 70%;
+            }
+    
+            .drag-img-5{
+                position: absolute;
+                top: 85%;
+                left: 20%;
+            }
+    
+            .drag-img-6{
+                position: absolute;
+                top: 120%;
+                left: 65%;
+            }
+    
+            .drag-img-7{
+                position: absolute;
+                top: 80%;
+                left: 120%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .landing-page {
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 8%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border: 1px solid $primaryColor;
+        height: 500px;
+
+        .landing-box {
+            #image-box{
+                position: relative;
+
+                .drag {
+                    max-width: 100px;
+                    max-height: 100px;
+                }
+        
+                .drag-img-1{
+                    top: -5%;
+                    left: -5%;
+                }
+        
+                .drag-img-2{
+                    position: absolute;
+                    top: 15%;
+                    left: 35%;
+                }
+        
+                .drag-img-3{
+                    position: absolute;
+                    top: -5%;
+                    left: 40%;
+                }
+        
+                .drag-img-4{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    max-width: 120px;
+                    max-height: 120px;
+                }
+        
+                .drag-img-5{
+                    position: absolute;
+                    top: 85%;
+                    left: 10%;
+                }
+        
+                .drag-img-6{
+                    position: absolute;
+                    top: 120%;
+                    left: 45%;
+                }
+        
+                .drag-img-7{
+                    position: absolute;
+                    top: 80%;
+                    left: 75%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    .landing-page {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 8%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border: 1px solid $primaryColor;
+        height: 450px;
+
+        .col-8,
+        .col-4 {
+            width: 100%;
+            flex-basis: 100%;
+        }
+
+        .landing-box {
+            #image-box{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .landing-page {
+        max-width: 550px;
+        padding-top: 10%;
+        height: 470px;
+    }
+}

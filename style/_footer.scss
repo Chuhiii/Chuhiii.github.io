@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    .footer-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-img{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+    img {
+        display: block;
+        margin: 0 10px;
+        max-width: 30px;
+        max-height: 30px;
+        &:hover{
+            background-color: $primaryColor;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer-text {
+        font-size: 10px;
+    }
+
+    img {
+        display: block;
+        margin: 0 5px;
+        max-width: 10px;
+        max-height: 10px;
+    }
+}

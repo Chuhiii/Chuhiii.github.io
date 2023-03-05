@@ -1,0 +1,116 @@
+.project-page {
+    max-width: 1200px;
+    margin: auto;
+    /* margin-top: 5%; */
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    .row {
+        justify-content: space-between;
+        
+    }
+
+    .text-align-right{
+        padding: 20px;
+        text-align: right;
+        button {
+            background-color: transparent;
+            border: 1px solid $primaryColor;
+            color: white;
+            font-size: $button;
+            width: 140px;
+            height: 39px;
+            &:hover{
+                background-color: $primaryColor;
+                color: black;
+            }
+        }
+    }
+
+    .text-align-left{
+        padding: 20px;
+        text-align: left;
+        button {
+            background-color: transparent;
+            border: 1px solid $primaryColor;
+            color: white;
+            font-size: $button;
+            width: 140px;
+            height: 39px;
+            &:hover{
+                background-color: $primaryColor;
+                color: black;
+            }
+        }
+    }
+
+    .project-img-box{
+        padding: 20px;
+       img {
+            margin-top: 1%;
+            max-height: 800px;
+            max-width: 500px;
+       }
+    }
+
+    a{
+        color: $primaryColor;
+        font-size: $para;
+    }
+
+
+    .tags-project {
+        display: inline-block;
+        margin-right: 5px;
+        color: $primaryColor;
+
+        a{
+            color: $primaryColor;
+            font-size: $para;
+            text-decoration: none;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .project-page {
+        width: 900px;
+
+        .row{
+            button{
+                width: 100px;
+                font-size: 12px;
+            }
+        }
+
+        .project-img-box{
+            padding: 20px;
+           img {
+                margin-top: 1%;
+                max-height: 800px;
+                max-width: 400px;
+           }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-page {
+        max-width: 500px;
+
+        .row{
+
+
+            .col-6 {
+                width: 100%;
+                flex-basis: 100%;
+            }
+        }
+        
+    }
+}

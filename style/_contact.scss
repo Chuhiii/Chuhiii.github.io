@@ -1,0 +1,47 @@
+.contact-page {
+    max-width: 500px;
+    max-height: 500px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+
+    .form-group {
+
+        .message-area{
+            height: 200px;
+            width: 500px;
+
+            .message-box{
+                height: 100%;
+                resize: none;
+                padding-top: 10px;
+
+            }
+        }
+
+        input {
+            background-color: rgba(217, 217, 217, 1);
+            border-style: none;
+            border-radius: 0;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            width: 100%;
+        } 
+    } 
+
+    button {
+        margin-top: 5%;
+        background-color: transparent;
+        border: 1px solid $primaryColor;
+        color: white;
+        font-size: $button;
+        width: 160px;
+        height: 39px;
+        &:hover{
+            background-color: $primaryColor;
+            color: black;
+        }
+    }
+}

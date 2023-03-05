@@ -1,0 +1,120 @@
+.certification-page {
+    max-width: 1200px;
+    position: relative;
+    margin-bottom: 10%;
+    
+  }
+
+  .certi-page{
+    max-width: 1200px;
+    overflow: hidden;
+
+    .box-certi {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background-color: $primaryColor;
+      }
+    
+      .box-info {
+        width: 190px;
+        height: 185px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: rgb(55, 55, 55);
+        
+        .certi-title {
+          height: 148px;
+          padding-left: 10%;
+          padding-right: 10%;
+          margin: 0 auto;
+        }
+  
+        a {
+          display: block;
+          text-align: right;
+          padding-right: 10%;
+          color: $primaryColor;
+        }
+      }
+      .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333333%;
+        display: block;
+      }
+      .carousel-inner {
+        display: flex;
+      }
+
+    .carousel-inner {
+        margin-left: 5%;
+        padding: 1em;
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 6vh;
+        height: 6vh;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            color: $primaryColor;
+        }
+      }
+     
+}
+
+
+
+
+@media screen and (max-width: 1025px) {
+  .certi-page {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certi-page {
+    max-width: 550px;
+
+
+
+    // .box-certi {
+    //   width: 150px;
+    //   height: 150px;
+    //   position: relative;
+    //   background-color: $primaryColor;
+    // }
+  
+    // .box-info {
+    //   width: 142.5px;
+    //   height: 138.75px;
+    //   position: absolute;
+    //   top: 5px;
+    //   left: 5px;
+    //   background-color: rgb(55, 55, 55);
+      
+    //   .certi-title {
+    //     height: 148px;
+    //     padding-left: 10%;
+    //     padding-right: 10%;
+    //     margin: 0 auto;
+    //   }
+
+      // h4{
+      //   font-size: 16px;
+      // }
+
+      // .carousel-item{
+      //     .active {
+      //     display: flex;
+      //     justify-content: center;
+      //     margin: 0 auto;
+      //   }
+      // }
+    
+  }
+}

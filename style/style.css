@@ -1,0 +1,586 @@
+.landing-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: 1px solid rgb(152, 242, 242);
+  height: 500px;
+  justify-content: space-between;
+}
+.landing-page .landing-box {
+  max-width: 900px;
+}
+.landing-page .landing-box #landing-info {
+  position: relative;
+  padding-left: 5%;
+}
+.landing-page .landing-box #landing-info p {
+  font-size: 16px;
+}
+.landing-page .landing-box #landing-info .welcome-p {
+  position: absolute;
+  top: -15%;
+}
+.landing-page .landing-box #landing-info .myName-p {
+  font-size: 22px;
+  margin-top: 5%;
+}
+.landing-page .landing-box #landing-info .name {
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: 600;
+}
+.landing-page .landing-box #landing-info .profile-info {
+  margin-top: 3%;
+}
+.landing-page .landing-box #landing-info button {
+  position: absolute;
+  bottom: -40%;
+  width: 140px;
+  height: 39px;
+}
+.landing-page .landing-box #landing-info h1, .landing-page .landing-box #landing-info .color-primary {
+  color: rgb(152, 242, 242);
+}
+.landing-page .landing-box #landing-info .background-primary {
+  background-color: rgb(152, 242, 242);
+  margin-right: 2%;
+}
+.landing-page .landing-box #landing-info .background-primary:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(152, 242, 242);
+}
+.landing-page .landing-box #landing-info .background-none {
+  background-color: transparent;
+  border: 1px solid rgb(152, 242, 242);
+  color: white;
+  left: 200px;
+}
+.landing-page .landing-box #landing-info .background-none:hover {
+  background-color: rgb(152, 242, 242);
+  color: black;
+}
+.landing-page .landing-box #image-box {
+  position: relative;
+}
+.landing-page .landing-box #image-box .drag-img-1 {
+  position: absolute;
+  top: -5%;
+  left: 5%;
+}
+.landing-page .landing-box #image-box .drag-img-2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+.landing-page .landing-box #image-box .drag-img-3 {
+  position: absolute;
+  top: -5%;
+  left: 120%;
+}
+.landing-page .landing-box #image-box .drag-img-4 {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+}
+.landing-page .landing-box #image-box .drag-img-5 {
+  position: absolute;
+  top: 85%;
+  left: 20%;
+}
+.landing-page .landing-box #image-box .drag-img-6 {
+  position: absolute;
+  top: 120%;
+  left: 65%;
+}
+.landing-page .landing-box #image-box .drag-img-7 {
+  position: absolute;
+  top: 80%;
+  left: 120%;
+}
+
+@media screen and (max-width: 1380px) {
+  .landing-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid rgb(152, 242, 242);
+    height: 500px;
+  }
+  .landing-page .landing-box #image-box {
+    position: relative;
+  }
+  .landing-page .landing-box #image-box .drag {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .landing-page .landing-box #image-box .drag-img-1 {
+    top: -5%;
+    left: -5%;
+  }
+  .landing-page .landing-box #image-box .drag-img-2 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+  }
+  .landing-page .landing-box #image-box .drag-img-3 {
+    position: absolute;
+    top: -5%;
+    left: 40%;
+  }
+  .landing-page .landing-box #image-box .drag-img-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .landing-page .landing-box #image-box .drag-img-5 {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+  }
+  .landing-page .landing-box #image-box .drag-img-6 {
+    position: absolute;
+    top: 120%;
+    left: 45%;
+  }
+  .landing-page .landing-box #image-box .drag-img-7 {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .landing-page {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid rgb(152, 242, 242);
+    height: 450px;
+  }
+  .landing-page .col-8,
+  .landing-page .col-4 {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .landing-page .landing-box #image-box {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing-page {
+    max-width: 550px;
+    padding-top: 10%;
+    height: 470px;
+  }
+}
+header {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 1440px;
+}
+header nav .container a {
+  color: white;
+}
+header nav .container a.active-link {
+  color: rgb(152, 242, 242);
+}
+header nav .container a:hover {
+  color: rgb(152, 242, 242);
+  text-decoration: underline;
+}
+header nav .container .navbar-brand {
+  color: rgb(152, 242, 242);
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar-toggler-icon {
+    background-color: rgb(152, 242, 242);
+  }
+}
+.about-me-page {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-me-page .greet {
+  font-size: 32px;
+  font-weight: 600;
+}
+.about-me-page .technologies-box {
+  margin-top: 2%;
+}
+.about-me-page .technologies-box .tech-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+.about-me-page .technologies-box img {
+  justify-content: center;
+  margin: auto;
+}
+.about-me-page .technologies-box label {
+  justify-content: center;
+  display: flex;
+}
+.about-me-page label {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1025px) {
+  .about-me-page {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-me-page {
+    max-width: 600px;
+  }
+  .about-me-page .col-6 {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+.project-page {
+  max-width: 1200px;
+  margin: auto;
+  /* margin-top: 5%; */
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.project-page .row {
+  justify-content: space-between;
+}
+.project-page .text-align-right {
+  padding: 20px;
+  text-align: right;
+}
+.project-page .text-align-right button {
+  background-color: transparent;
+  border: 1px solid rgb(152, 242, 242);
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  height: 39px;
+}
+.project-page .text-align-right button:hover {
+  background-color: rgb(152, 242, 242);
+  color: black;
+}
+.project-page .text-align-left {
+  padding: 20px;
+  text-align: left;
+}
+.project-page .text-align-left button {
+  background-color: transparent;
+  border: 1px solid rgb(152, 242, 242);
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  height: 39px;
+}
+.project-page .text-align-left button:hover {
+  background-color: rgb(152, 242, 242);
+  color: black;
+}
+.project-page .project-img-box {
+  padding: 20px;
+}
+.project-page .project-img-box img {
+  margin-top: 1%;
+  max-height: 800px;
+  max-width: 500px;
+}
+.project-page a {
+  color: rgb(152, 242, 242);
+  font-size: 16px;
+}
+.project-page .tags-project {
+  display: inline-block;
+  margin-right: 5px;
+  color: rgb(152, 242, 242);
+}
+.project-page .tags-project a {
+  color: rgb(152, 242, 242);
+  font-size: 16px;
+  text-decoration: none;
+}
+.project-page .tags-project a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1025px) {
+  .project-page {
+    width: 900px;
+  }
+  .project-page .row button {
+    width: 100px;
+    font-size: 12px;
+  }
+  .project-page .project-img-box {
+    padding: 20px;
+  }
+  .project-page .project-img-box img {
+    margin-top: 1%;
+    max-height: 800px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-page {
+    max-width: 500px;
+  }
+  .project-page .row .col-6 {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+.contact-page {
+  max-width: 500px;
+  max-height: 500px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.contact-page .form-group .message-area {
+  height: 200px;
+  width: 500px;
+}
+.contact-page .form-group .message-area .message-box {
+  height: 100%;
+  resize: none;
+  padding-top: 10px;
+}
+.contact-page .form-group input {
+  background-color: rgb(217, 217, 217);
+  border-style: none;
+  border-radius: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.contact-page button {
+  margin-top: 5%;
+  background-color: transparent;
+  border: 1px solid rgb(152, 242, 242);
+  color: white;
+  font-size: 16px;
+  width: 160px;
+  height: 39px;
+}
+.contact-page button:hover {
+  background-color: rgb(152, 242, 242);
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+footer .footer-text {
+  display: flex;
+  align-items: center;
+}
+footer .footer-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer img {
+  display: block;
+  margin: 0 10px;
+  max-width: 30px;
+  max-height: 30px;
+}
+footer img:hover {
+  background-color: rgb(152, 242, 242);
+}
+
+@media screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 10px;
+  }
+  img {
+    display: block;
+    margin: 0 5px;
+    max-width: 10px;
+    max-height: 10px;
+  }
+}
+.certification-page {
+  max-width: 1200px;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.certi-page {
+  max-width: 1200px;
+  overflow: hidden;
+}
+.certi-page .box-certi {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: rgb(152, 242, 242);
+}
+.certi-page .box-info {
+  width: 190px;
+  height: 185px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(55, 55, 55);
+}
+.certi-page .box-info .certi-title {
+  height: 148px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 auto;
+}
+.certi-page .box-info a {
+  display: block;
+  text-align: right;
+  padding-right: 10%;
+  color: rgb(152, 242, 242);
+}
+.certi-page .carousel-item {
+  margin-right: 0;
+  flex: 0 0 33.333333%;
+  display: block;
+}
+.certi-page .carousel-inner {
+  display: flex;
+}
+.certi-page .carousel-inner {
+  margin-left: 5%;
+  padding: 1em;
+}
+.certi-page .carousel-control-prev,
+.certi-page .carousel-control-next {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.certi-page .carousel-control-prev .carousel-control-prev-icon,
+.certi-page .carousel-control-prev .carousel-control-next-icon,
+.certi-page .carousel-control-next .carousel-control-prev-icon,
+.certi-page .carousel-control-next .carousel-control-next-icon {
+  color: rgb(152, 242, 242);
+}
+
+@media screen and (max-width: 1025px) {
+  .certi-page {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .certi-page {
+    max-width: 550px;
+  }
+}
+.certification-solo-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.certification-solo-page a {
+  color: rgb(152, 242, 242);
+  font-size: 16px;
+}
+.certification-solo-page .tags-project {
+  display: inline-block;
+  margin-right: 5px;
+  color: rgb(152, 242, 242);
+}
+.certification-solo-page .tags-project a {
+  color: rgb(152, 242, 242);
+  font-size: 16px;
+  text-decoration: none;
+}
+.certification-solo-page .tags-project a:hover {
+  color: white;
+}
+.certification-solo-page #github-icon {
+  max-width: 30px;
+  max-height: 30px;
+  background-color: rgb(152, 242, 242);
+}
+.certification-solo-page #github-icon:hover {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Fira Code", monospace;
+  color: white;
+  background-color: rgb(6, 9, 23);
+}
+body .color-primary {
+  color: rgb(152, 242, 242);
+}
+body .title {
+  font-size: 22px;
+  text-decoration: underline;
+}
+body .text-mini {
+  font-size: 10px;
+}
+body .landing-page,
+body .welcome-p,
+body .myName-p,
+body .name-title,
+body .job-title,
+body .profile-info,
+body .landing-button-1,
+body .landing-button-2,
+body .drag-img-4,
+body .about-title,
+body .greet,
+body .about-para-1,
+body .about-para-2,
+body .tech-title,
+body .tech-row-1,
+body .tech-row-2,
+body .project-title,
+body .project-1,
+body .project-2,
+body .project-3,
+body .project-4,
+body .project-img-1,
+body .project-img-2,
+body .project-img-3,
+body .project-img-4,
+body .contact-title,
+body .contact-para,
+body .form-group,
+body .submit-btn-form {
+  opacity: 0;
+}
+body .animate__animated {
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */

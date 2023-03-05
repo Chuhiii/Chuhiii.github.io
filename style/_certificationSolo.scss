@@ -1,0 +1,39 @@
+.certification-solo-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+    a{
+        color: $primaryColor;
+        font-size: $para;
+    }
+
+
+    .tags-project {
+        display: inline-block;
+        margin-right: 5px;
+        color: $primaryColor;
+
+        a{
+            color: $primaryColor;
+            font-size: $para;
+            text-decoration: none;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+
+    #github-icon {
+        max-width: 30px;
+        max-height: 30px;
+        background-color: $primaryColor;
+
+        &:hover{
+            background-color: white;
+        }
+    }
+    
+}

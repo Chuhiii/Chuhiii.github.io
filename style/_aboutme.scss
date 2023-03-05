@@ -1,0 +1,53 @@
+.about-me-page {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .greet{
+        font-size: $greet;
+        font-weight: 600;
+    }
+
+    .technologies-box{
+        margin-top: 2%;
+        .tech-title{
+            font-weight: 400;
+            font-size: $title;
+        }
+        img {
+            justify-content: center;
+            margin: auto;
+        }
+
+        label {
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+    label {
+        font-size: $logo;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+    .about-me-page {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-page {
+        max-width: 600px;
+
+        .col-6 {
+            width: 100%;
+            flex-basis: 100%;
+        }
+    }
+}

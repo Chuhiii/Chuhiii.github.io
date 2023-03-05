@@ -1,0 +1,34 @@
+header {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1440px;
+    nav { 
+        .container {
+            a {
+                color: white;
+    
+                &.active-link {
+                    color: $primaryColor;
+                }
+            }
+
+            a:hover{
+                color: $primaryColor;
+                text-decoration: underline;
+            }
+            
+            .navbar-brand {
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+ 
+        .navbar-toggler-icon{
+            background-color: $primaryColor;
+        }
+    }
+}

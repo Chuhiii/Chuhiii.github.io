@@ -1,0 +1,87 @@
+//import
+@import './variables';
+@import './landing';
+@import './header';
+@import './aboutme';
+@import './project';
+@import './contact';
+@import './footer';
+@import './certification';
+@import './certificationSolo';
+
+@mixin transparentButton($primaryColor){
+    background-color: transparent;
+    color: white;
+    border: 1px solid $primaryColor;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    font-family: 'Fira Code', monospace;
+    color: white;
+    background-color: rgba(6, 9, 23, 1);
+
+
+    .color-primary{
+        color: $primaryColor;
+    }
+
+    .title {
+        font-size: $title;
+        text-decoration: underline;
+    }
+
+
+    .text-mini {
+        font-size: $miniPara;
+    }
+
+    // ANIMATION
+    .landing-page,
+    .welcome-p,
+    .myName-p,
+    .name-title,
+    .job-title,
+    .profile-info,
+    .landing-button-1,
+    .landing-button-2,
+    .drag-img-4,
+    .about-title,
+    .greet,
+    .about-para-1,
+    .about-para-2,
+    .tech-title,
+    .tech-row-1,
+    .tech-row-2,
+    .project-title,
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-4,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .contact-title,
+    .contact-para,
+    .form-group,
+    .submit-btn-form {
+        opacity: 0;
+    }
+
+
+    .animate__animated {
+        opacity: 1;
+    }
+    
+}
+
+
+
