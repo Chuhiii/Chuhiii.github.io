@@ -263,37 +263,29 @@ header nav .container .navbar-brand {
 .project-page .row {
   justify-content: space-between;
 }
-.project-page .text-align-right {
+.project-page .text-align-right,
+.project-page .text-align-left {
   padding: 20px;
   text-align: right;
 }
-.project-page .text-align-right button {
+.project-page .text-align-right a,
+.project-page .text-align-left a {
+  text-decoration: none;
   background-color: transparent;
   border: 1px solid rgb(152, 242, 242);
   color: white;
   font-size: 16px;
-  width: 140px;
+  width: 160px;
   height: 39px;
+  padding: 5px 20px;
 }
-.project-page .text-align-right button:hover {
+.project-page .text-align-right a:hover,
+.project-page .text-align-left a:hover {
   background-color: rgb(152, 242, 242);
   color: black;
 }
 .project-page .text-align-left {
-  padding: 20px;
   text-align: left;
-}
-.project-page .text-align-left button {
-  background-color: transparent;
-  border: 1px solid rgb(152, 242, 242);
-  color: white;
-  font-size: 16px;
-  width: 140px;
-  height: 39px;
-}
-.project-page .text-align-left button:hover {
-  background-color: rgb(152, 242, 242);
-  color: black;
 }
 .project-page .project-img-box {
   padding: 20px;
@@ -302,10 +294,6 @@ header nav .container .navbar-brand {
   margin-top: 1%;
   max-height: 800px;
   max-width: 500px;
-}
-.project-page a {
-  color: rgb(152, 242, 242);
-  font-size: 16px;
 }
 .project-page .tags-project {
   display: inline-block;

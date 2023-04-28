@@ -6,21 +6,26 @@
     padding-right: 4%;
     padding-top: 5%;
     padding-bottom: 5%;
+
     .row {
         justify-content: space-between;
         
     }
 
-    .text-align-right{
+    .text-align-right,
+    .text-align-left {
         padding: 20px;
         text-align: right;
-        button {
+
+        a {
+            text-decoration: none;
             background-color: transparent;
             border: 1px solid $primaryColor;
             color: white;
             font-size: $button;
-            width: 140px;
+            width: 160px;
             height: 39px;
+            padding: 5px 20px;
             &:hover{
                 background-color: $primaryColor;
                 color: black;
@@ -28,22 +33,10 @@
         }
     }
 
-    .text-align-left{
-        padding: 20px;
+    .text-align-left {
         text-align: left;
-        button {
-            background-color: transparent;
-            border: 1px solid $primaryColor;
-            color: white;
-            font-size: $button;
-            width: 140px;
-            height: 39px;
-            &:hover{
-                background-color: $primaryColor;
-                color: black;
-            }
-        }
     }
+
 
     .project-img-box{
         padding: 20px;
@@ -53,12 +46,6 @@
             max-width: 500px;
        }
     }
-
-    a{
-        color: $primaryColor;
-        font-size: $para;
-    }
-
 
     .tags-project {
         display: inline-block;
