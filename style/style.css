@@ -228,6 +228,9 @@ header nav .container .navbar-brand {
 .about-me-page .technologies-box img {
   justify-content: center;
   margin: auto;
+  background: #fff;
+  width: 50px;
+  height: 50px;
 }
 .about-me-page .technologies-box label {
   justify-content: center;
